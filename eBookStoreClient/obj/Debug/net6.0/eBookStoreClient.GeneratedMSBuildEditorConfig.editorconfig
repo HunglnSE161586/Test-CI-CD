@@ -1,0 +1,100 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = eBookStoreClient
+build_property.RootNamespace = eBookStoreClient
+build_property.ProjectDir = C:\D Driver\old file\PRN231\Assignment02Solution_SE161586\eBookStoreClient\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\D Driver\old file\PRN231\Assignment02Solution_SE161586\eBookStoreClient
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/D Driver/old file/PRN231/Assignment02Solution_SE161586/eBookStoreClient/Pages/AuthorPages/AuthorList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yUGFnZXNcQXV0aG9yTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/D Driver/old file/PRN231/Assignment02Solution_SE161586/eBookStoreClient/Pages/AuthorPages/CreateAuthor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yUGFnZXNcQ3JlYXRlQXV0aG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/D Driver/old file/PRN231/Assignment02Solution_SE161586/eBookStoreClient/Pages/AuthorPages/DeleteAuthor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yUGFnZXNcRGVsZXRlQXV0aG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/D Driver/old file/PRN231/Assignment02Solution_SE161586/eBookStoreClient/Pages/AuthorPages/EditAuthor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yUGFnZXNcRWRpdEF1dGhvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/D Driver/old file/PRN231/Assignment02Solution_SE161586/eBookStoreClient/Pages/BookPages/BookList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va1BhZ2VzXEJvb2tMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/D Driver/old file/PRN231/Assignment02Solution_SE161586/eBookStoreClient/Pages/BookPages/CreateBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va1BhZ2VzXENyZWF0ZUJvb2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/D Driver/old file/PRN231/Assignment02Solution_SE161586/eBookStoreClient/Pages/BookPages/DeleteBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va1BhZ2VzXERlbGV0ZUJvb2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/D Driver/old file/PRN231/Assignment02Solution_SE161586/eBookStoreClient/Pages/BookPages/EditBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQm9va1BhZ2VzXEVkaXRCb29rLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/D Driver/old file/PRN231/Assignment02Solution_SE161586/eBookStoreClient/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/D Driver/old file/PRN231/Assignment02Solution_SE161586/eBookStoreClient/Pages/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/D Driver/old file/PRN231/Assignment02Solution_SE161586/eBookStoreClient/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/D Driver/old file/PRN231/Assignment02Solution_SE161586/eBookStoreClient/Pages/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/D Driver/old file/PRN231/Assignment02Solution_SE161586/eBookStoreClient/Pages/PublisherPages/CreatePublisher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHVibGlzaGVyUGFnZXNcQ3JlYXRlUHVibGlzaGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/D Driver/old file/PRN231/Assignment02Solution_SE161586/eBookStoreClient/Pages/PublisherPages/DeletePublisher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHVibGlzaGVyUGFnZXNcRGVsZXRlUHVibGlzaGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/D Driver/old file/PRN231/Assignment02Solution_SE161586/eBookStoreClient/Pages/PublisherPages/EditPublisher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHVibGlzaGVyUGFnZXNcRWRpdFB1Ymxpc2hlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/D Driver/old file/PRN231/Assignment02Solution_SE161586/eBookStoreClient/Pages/PublisherPages/PublisherList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHVibGlzaGVyUGFnZXNcUHVibGlzaGVyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/D Driver/old file/PRN231/Assignment02Solution_SE161586/eBookStoreClient/Pages/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/D Driver/old file/PRN231/Assignment02Solution_SE161586/eBookStoreClient/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/D Driver/old file/PRN231/Assignment02Solution_SE161586/eBookStoreClient/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/D Driver/old file/PRN231/Assignment02Solution_SE161586/eBookStoreClient/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/D Driver/old file/PRN231/Assignment02Solution_SE161586/eBookStoreClient/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-eottxyifv8

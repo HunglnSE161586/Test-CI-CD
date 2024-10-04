@@ -1,0 +1,108 @@
+﻿@page
+@model eBookStoreClient.Pages.BookPages.DeleteBookModel
+
+@{
+    ViewData["Title"] = "DeleteBook";
+}
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - eStoreClient</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/eStoreClient.styles.css" asp-append-version="true" />
+</head>
+<div style="width:inherit;display:flex;height:100%">
+    <div class="col-lg-2" style="background-color:darkslateblue;display:inline-block;">
+        <div>
+            <div style="background-color:black">
+                <h4 style="color:white;padding:1rem;text-align:left">BookStore</h4>
+            </div>
+            <div style="padding-left:1rem">
+                <div style="padding-bottom:1rem"><a href="/Home" style="color:white;text-decoration: none">Home</a></div>
+                <div style="padding-bottom:1rem">User</div>
+                <div style="padding-bottom:1rem"><a href="/PublisherPages/PublisherList" style="color:white;text-decoration: none">Publisher</a></div>
+                <div style="padding-bottom:1rem"><a href="/AuthorPages/AuthorList" style="color:white;text-decoration: none">Authors</a></div>
+                <div style="padding-bottom:1rem"><a href="/BookPages/BookList" style="color:white;text-decoration: none">Books</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-9" style="display:inline-block;width:82.9%">
+        <div>
+            <div style="background-color:lightgray;padding:1rem;text-align:right">
+                <a href="/Index" style="padding:1rem">Logout</a>
+            </div>
+            <div style="padding:1rem">
+                <h1>DeleteBook</h1>
+
+                <h3>Are you sure you want to delete this?</h3>
+                <div>
+                    <h4>Book</h4>
+                    <hr />
+                    <dl class="row">
+                        <dt class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.Book.Title)
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.Book.Title)
+                        </dd>
+                        <dt class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.Book.Type)
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.Book.Type)
+                        </dd>
+                        <dt class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.Book.Price)
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.Book.Price)
+                        </dd>
+                        <dt class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.Book.Advance)
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.Book.Advance)
+                        </dd>
+                        <dt class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.Book.Royalty)
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.Book.Royalty)
+                        </dd>
+                        <dt class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.Book.YtdSales)
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.Book.YtdSales)
+                        </dd>
+                        <dt class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.Book.Notes)
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.Book.Notes)
+                        </dd>
+                        <dt class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.Book.PublishedDate)
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.Book.PublishedDate)
+                        </dd>
+                        <dt class="col-sm-2">
+                            @Html.DisplayNameFor(model => model.Book.PubId)
+                        </dt>
+                        <dd class="col-sm-10">
+                            @Html.DisplayFor(model => model.Book.PubId)
+                        </dd>
+                    </dl>
+
+                    <form method="post">
+                        <input type="hidden" asp-for="Book.BookId" />
+                        <input type="submit" value="Delete" class="btn btn-danger" /> |
+                        <a asp-page="/BookPages/BookList">Back to List</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

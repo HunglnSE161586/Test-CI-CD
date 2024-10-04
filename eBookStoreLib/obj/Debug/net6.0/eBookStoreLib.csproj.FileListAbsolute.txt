@@ -1,0 +1,28 @@
+C:\Users\HUNG\OneDrive\Desktop\PRN231\Assignment02Solution_SE161586\eBookStoreLib\bin\Debug\net6.0\eBookStoreLib.deps.json
+C:\Users\HUNG\OneDrive\Desktop\PRN231\Assignment02Solution_SE161586\eBookStoreLib\bin\Debug\net6.0\eBookStoreLib.runtimeconfig.json
+C:\Users\HUNG\OneDrive\Desktop\PRN231\Assignment02Solution_SE161586\eBookStoreLib\bin\Debug\net6.0\eBookStoreLib.dll
+C:\Users\HUNG\OneDrive\Desktop\PRN231\Assignment02Solution_SE161586\eBookStoreLib\bin\Debug\net6.0\eBookStoreLib.pdb
+C:\Users\HUNG\OneDrive\Desktop\PRN231\Assignment02Solution_SE161586\eBookStoreLib\obj\Debug\net6.0\eBookStoreLib.csproj.AssemblyReference.cache
+C:\Users\HUNG\OneDrive\Desktop\PRN231\Assignment02Solution_SE161586\eBookStoreLib\obj\Debug\net6.0\eBookStoreLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HUNG\OneDrive\Desktop\PRN231\Assignment02Solution_SE161586\eBookStoreLib\obj\Debug\net6.0\eBookStoreLib.AssemblyInfoInputs.cache
+C:\Users\HUNG\OneDrive\Desktop\PRN231\Assignment02Solution_SE161586\eBookStoreLib\obj\Debug\net6.0\eBookStoreLib.AssemblyInfo.cs
+C:\Users\HUNG\OneDrive\Desktop\PRN231\Assignment02Solution_SE161586\eBookStoreLib\obj\Debug\net6.0\eBookStoreLib.csproj.CoreCompileInputs.cache
+C:\Users\HUNG\OneDrive\Desktop\PRN231\Assignment02Solution_SE161586\eBookStoreLib\obj\Debug\net6.0\eBookStoreLib.dll
+C:\Users\HUNG\OneDrive\Desktop\PRN231\Assignment02Solution_SE161586\eBookStoreLib\obj\Debug\net6.0\refint\eBookStoreLib.dll
+C:\Users\HUNG\OneDrive\Desktop\PRN231\Assignment02Solution_SE161586\eBookStoreLib\obj\Debug\net6.0\eBookStoreLib.pdb
+C:\Users\HUNG\OneDrive\Desktop\PRN231\Assignment02Solution_SE161586\eBookStoreLib\obj\Debug\net6.0\eBookStoreLib.genruntimeconfig.cache
+C:\Users\HUNG\OneDrive\Desktop\PRN231\Assignment02Solution_SE161586\eBookStoreLib\obj\Debug\net6.0\ref\eBookStoreLib.dll
+C:\D Driver\old file\PRN231\Assignment02Solution_SE161586\eBookStoreLib\bin\Debug\net6.0\eBookStoreLib.deps.json
+C:\D Driver\old file\PRN231\Assignment02Solution_SE161586\eBookStoreLib\bin\Debug\net6.0\eBookStoreLib.runtimeconfig.json
+C:\D Driver\old file\PRN231\Assignment02Solution_SE161586\eBookStoreLib\bin\Debug\net6.0\eBookStoreLib.dll
+C:\D Driver\old file\PRN231\Assignment02Solution_SE161586\eBookStoreLib\bin\Debug\net6.0\eBookStoreLib.pdb
+C:\D Driver\old file\PRN231\Assignment02Solution_SE161586\eBookStoreLib\obj\Debug\net6.0\eBookStoreLib.csproj.AssemblyReference.cache
+C:\D Driver\old file\PRN231\Assignment02Solution_SE161586\eBookStoreLib\obj\Debug\net6.0\eBookStoreLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\D Driver\old file\PRN231\Assignment02Solution_SE161586\eBookStoreLib\obj\Debug\net6.0\eBookStoreLib.AssemblyInfoInputs.cache
+C:\D Driver\old file\PRN231\Assignment02Solution_SE161586\eBookStoreLib\obj\Debug\net6.0\eBookStoreLib.AssemblyInfo.cs
+C:\D Driver\old file\PRN231\Assignment02Solution_SE161586\eBookStoreLib\obj\Debug\net6.0\eBookStoreLib.csproj.CoreCompileInputs.cache
+C:\D Driver\old file\PRN231\Assignment02Solution_SE161586\eBookStoreLib\obj\Debug\net6.0\eBookStoreLib.dll
+C:\D Driver\old file\PRN231\Assignment02Solution_SE161586\eBookStoreLib\obj\Debug\net6.0\refint\eBookStoreLib.dll
+C:\D Driver\old file\PRN231\Assignment02Solution_SE161586\eBookStoreLib\obj\Debug\net6.0\eBookStoreLib.pdb
+C:\D Driver\old file\PRN231\Assignment02Solution_SE161586\eBookStoreLib\obj\Debug\net6.0\eBookStoreLib.genruntimeconfig.cache
+C:\D Driver\old file\PRN231\Assignment02Solution_SE161586\eBookStoreLib\obj\Debug\net6.0\ref\eBookStoreLib.dll

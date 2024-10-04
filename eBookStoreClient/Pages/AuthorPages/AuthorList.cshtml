@@ -1,0 +1,111 @@
+﻿@page
+@model eBookStoreClient.Pages.AuthorPages.AuthorListModel
+
+@{
+    ViewData["Title"] = "AuthorList";
+}
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - eStoreClient</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/eStoreClient.styles.css" asp-append-version="true" />
+</head>
+<div style="width:inherit;display:flex;height:100%">
+    <div class="col-lg-2" style="background-color:darkslateblue;display:inline-block;">
+        <div>
+            <div style="background-color:black">
+                <h4 style="color:white;padding:1rem;text-align:left">BookStore</h4>
+            </div>
+            <div style="padding-left:1rem">
+                <div style="padding-bottom:1rem"><a href="/Home" style="color:white;text-decoration: none">Home</a></div>
+                <div style="padding-bottom:1rem">User</div>
+                <div style="padding-bottom:1rem"><a href="/PublisherPages/PublisherList" style="color:white;text-decoration: none">Publisher</a></div>
+                <div style="padding-bottom:1rem"><a href="/AuthorPages/AuthorList" style="color:white;text-decoration: none">Authors</a></div>
+                <div style="padding-bottom:1rem"><a href="/BookPages/BookList" style="color:white;text-decoration: none">Books</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-9" style="display:inline-block;width:82.9%">
+        <div>
+            <div style="background-color:lightgray;padding:1rem;text-align:right">
+                <a href="/Index" style="padding:1rem">Logout</a>
+            </div>
+            <div style="padding:1rem">
+                <h1>AuthorList</h1>
+
+                <p>
+                    <a asp-page="/AuthorPages/CreateAuthor">Create New</a>
+                </p>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Author[0].LastName)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Author[0].FirstName)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Author[0].Phone)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Author[0].Address)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Author[0].City)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Author[0].State)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Author[0].Zip)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(model => model.Author[0].EmailAddress)
+                            </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Author)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.LastName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.FirstName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Phone)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Address)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.City)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.State)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Zip)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.EmailAddress)
+                                </td>
+                                <td>
+                                    <a asp-page="/AuthorPages/EditAuthor" asp-route-id="@item.AuthorId">Edit</a> |                                    
+                                    <a asp-page="/AuthorPages/DeleteAuthor" asp-route-id="@item.AuthorId">Delete</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+

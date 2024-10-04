@@ -1,0 +1,101 @@
+﻿@page
+@model eBookStoreClient.Pages.AuthorPages.CreateAuthorModel
+
+@{
+    ViewData["Title"] = "CreateAuthor";
+}
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - eStoreClient</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/eStoreClient.styles.css" asp-append-version="true" />
+</head>
+<div style="width:inherit;display:flex;height:100%">
+    <div class="col-lg-2" style="background-color:darkslateblue;display:inline-block;">
+        <div>
+            <div style="background-color:black">
+                <h4 style="color:white;padding:1rem;text-align:left">BookStore</h4>
+            </div>
+            <div style="padding-left:1rem">
+                <div style="padding-bottom:1rem"><a href="/Home" style="color:white;text-decoration: none">Home</a></div>
+                <div style="padding-bottom:1rem">User</div>
+                <div style="padding-bottom:1rem"><a href="/PublisherPages/PublisherList" style="color:white;text-decoration: none">Publisher</a></div>
+                <div style="padding-bottom:1rem"><a href="/AuthorPages/AuthorList" style="color:white;text-decoration: none">Authors</a></div>
+                <div style="padding-bottom:1rem"><a href="/BookPages/BookList" style="color:white;text-decoration: none">Books</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-9" style="display:inline-block;width:82.9%">
+        <div>
+            <div style="background-color:lightgray;padding:1rem;text-align:right">
+                <a href="/Index" style="padding:1rem">Logout</a>
+            </div>
+            <div style="padding:1rem">
+                <h1>CreateAuthor</h1>
+
+                <h4>Author</h4>
+                <hr />
+                <div class="row">
+                    <div class="col-md-4">
+                        <form method="post">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                            <div class="form-group">
+                                <label asp-for="Author.LastName" class="control-label"></label>
+                                <input asp-for="Author.LastName" class="form-control" />
+                                <span asp-validation-for="Author.LastName" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Author.FirstName" class="control-label"></label>
+                                <input asp-for="Author.FirstName" class="form-control" />
+                                <span asp-validation-for="Author.FirstName" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Author.Phone" class="control-label"></label>
+                                <input asp-for="Author.Phone" class="form-control" />
+                                <span asp-validation-for="Author.Phone" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Author.Address" class="control-label"></label>
+                                <input asp-for="Author.Address" class="form-control" />
+                                <span asp-validation-for="Author.Address" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Author.City" class="control-label"></label>
+                                <input asp-for="Author.City" class="form-control" />
+                                <span asp-validation-for="Author.City" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Author.State" class="control-label"></label>
+                                <input asp-for="Author.State" class="form-control" />
+                                <span asp-validation-for="Author.State" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Author.Zip" class="control-label"></label>
+                                <input asp-for="Author.Zip" class="form-control" />
+                                <span asp-validation-for="Author.Zip" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label asp-for="Author.EmailAddress" class="control-label"></label>
+                                <input asp-for="Author.EmailAddress" class="form-control" />
+                                <span asp-validation-for="Author.EmailAddress" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Create" class="btn btn-primary" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div>
+                    <a asp-page="/AuthorPages/AuthorList">Back to List</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
