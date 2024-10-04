@@ -9,33 +9,15 @@ on:
       - main
 
 jobs:
-  build-and-test:
-    runs-on: ubuntu-latest
-
+  automated-api-tests:
+    runs-on: windows-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Set up .NET
-        uses: actions/setup-dotnet@v1
-        with:
-          dotnet-version: '6.0.x'  # Specify your .NET version
-
-      - name: Restore dependencies
-        run: dotnet restore
-
-      - name: Build the project
-        run: dotnet build --configuration Release
-
-      - name: Install Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '16'  # Specify the Node.js version
-
-      - name: Install Newman
-        run: npm install -g newman
-
-      - name: Run Postman Collection
-        run: newman run postman/your-collection-file.json --env-var "apiKey=${{ secrets.POSTMAN_API_KEY }}"
-        # Add -e for environment file if needed
-        # run: newman run postman/your-collection-file.json -e postman/your-environment-file.json
+      - uses: actions/checkout@v4
+      - name: Install Postman CLI
+        run: |
+          powershell.exe -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://dl-cli.pstmn.io/install/win64.ps1'))"
+      - name: Login to Postman CLI
+        run: postman login --with-api-key ${{ secrets.POSTMAN_API_KEY }}
+      - name: Run API tests
+        run: |
+          postman collection run "26189770-dd9bc290-810a-4045-929b-f7e4ee1ec951"
